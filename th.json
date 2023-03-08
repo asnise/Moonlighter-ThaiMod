@@ -1,0 +1,234 @@
+{
+    "translations": [
+      {
+        "key": "Yes",
+        "value": "ยืนยัน"
+      },
+      {
+        "key": "No",
+        "value": "ไม่"
+      },
+      {
+        "key": "Back",
+        "value": "กลับ"
+      },
+      {
+        "key": "Close",
+        "value": "ปิด"
+      },
+      {
+        "key": "Sort",
+        "value": "จัดเรียง"
+      },
+      {
+        "key": "Quick Equip",
+        "value": "สวมใส่เลย"
+      },
+      {
+        "key": "Quick Move",
+        "value": "ย้ายเลย"
+      },
+      {
+        "key": "Quick Move All",
+        "value": "ย้ายทั้งหมด"
+      },
+      {
+        "key": "Grab/Hold Grab Stack",
+        "value": "แบ่ง/เก็บทั้งหมด"
+      },
+      {
+        "key": "All progress after the last save\nwill be lost.\nAre you sure you want to exit?",
+        "value": "ความคืบหน้าทั้งหมดหลังจากการบันทึกครั้งล่าสุด\nจะหายไป\nคุณแน่ใจหรือไม่ว่าต้องการออก"
+      },
+      {
+        "key": "Press any key or button to continue",
+        "value": "กดปุ่มใดก็ได้เพื่อดำเนินการต่อ"
+      },
+      {
+        "key": "Hold to sleep",
+        "value": "กดค้างเพื่อ นอน"
+      },
+      {
+        "key": "Open",
+        "value": "เปิด"
+      },
+      {
+        "key": "Read",
+        "value": "อ่าน"
+      },
+      {
+        "key": "Place",
+        "value": "วาง"
+      },
+      {
+        "key": "Sell",
+        "value": "ขาย"
+      },
+      {
+        "key": "Talk",
+        "value": "พูดคุย"
+      },
+      {
+        "key": "Hold to Open Shop",
+        "value": "กดค้างเพื่อ เปิดร้าน"
+      },
+      {
+        "key": "Exit",
+        "value": "ออก"
+      },
+      {
+        "key": "Back to Game",
+        "value": "กลับเข้าเกม"
+      },
+      {
+        "key": "Options",
+        "value": "ตั้งค่า"
+      },
+      {
+        "key": "Main Menu",
+        "value": "เมนูหลัก"
+      },
+      {
+        "key": "Exit To Desktop",
+        "value": "ออกเกม"
+      },
+      {
+        "key": "New Game",
+        "value": "เล่นใหม่"
+      },
+      {
+        "key": "Save Game",
+        "value": "เซฟเกม"
+      },
+      {
+        "key": "Choose a save slot to begin",
+        "value": "เลือกเซฟเพื่อเล่นต่อ"
+      },
+      {
+        "key": "LOAD / NEW GAME",
+        "value": "โหลดเซฟ / เล่นใหม่"
+      },
+      {
+        "key": "Copy",
+        "value": "คัดลอก"
+      },
+      {
+        "key": "Erase",
+        "value": "ลบ"
+      },
+      {
+        "key": "GAME OPTIONS",
+        "value": "ตั้งค่า ตัวเกม"
+      },
+      {
+        "key": "GRAPHICS",
+        "value": "กราฟิก"
+      },
+      {
+        "key": "SOUND",
+        "value": "เสียง"
+      },
+      {
+        "key": "CONTROLS",
+        "value": "ปุ่มควบคุม"
+      },
+      {
+        "key": "Continue",
+        "value": "เล่นต่อ"
+      },
+      {
+        "key": "Load / New Game",
+        "value": "โหลด / เล่นใหม่"
+      },
+      {
+        "key": "Saved Game",
+        "value": "เซฟเกม"
+      },
+      {
+        "key": "Investments:",
+        "value": "ลงทุน:"
+      },
+      {
+        "key": "Town",
+        "value": "เมือง"
+      },
+      {
+        "key": "Shop",
+        "value": "หน้าร้าน"
+      },
+      {
+        "key": "<color=#422909FF>Andrei:</color>\nThe forge is ablaze\nand ready to craft\nwhatever you may\nneed!",
+        "value": "<color=#422909FF>Andrei:</color>\nโรงหลอมกำลังลุกโชน\nและ พร้อมที่จะแกะสลัก\nอะไรก็ตามที่คุณ\nต้องการ!"
+      },
+      {
+        "key": "<color=#422909FF>Andrei:</color>\nYou look well today,\nWill! What can I do\nfor you?",
+        "value": "<color=#422909FF>Andrei:</color>\nวันนี้คุณดูดีนะ!\nมีอะไรให้\nฉันช่วย คุณมั้ย?"
+      },
+      {
+        "key": "Calendar",
+        "value": "ปฏิทิน"
+      },
+      {
+        "key": "Wishlist",
+        "value": "สิ่งที่อยากได้"
+      },
+      {
+        "key": "Inventory",
+        "value": "กระเป๋า"
+      },
+      {
+        "key": "Notebook",
+        "value": "สมุดบันทึก"
+      },
+      {
+        "key": "Remove from Wishlist",
+        "value": "ลบจากสิ่งที่อยากได้"
+      },
+      {
+        "key": "Selling and Reactions",
+        "value": "การขายและปฏิกิริยา"
+      },
+      {
+        "key": "Popularity",
+        "value": "ความนิยม"
+      },
+      {
+        "key": "NOT FOR SALE",
+        "value": "ขายไม่ได้"
+      },
+      {
+        "key": "Enter",
+        "value": "เข้า"
+      },
+      {
+        "key": "Total:",
+        "value": "ราคา:"
+      },
+      {
+        "key": "Goodbye!",
+        "value": "จะกลับมาใหม่นะ!"
+      },
+      {
+        "key": "Add to Wishlist",
+        "value": "เพิ่มในรายการที่อยากได้"
+      },
+      {
+        "key": "Grab",
+        "value": "หยิบ"
+      },
+      {
+        "key": "What do you want to\ncraft today?",
+        "value": "ต้องการยา หรือ\nเสริมแกร่งดี?"
+      },
+      {
+        "key": "Potions",
+        "value": "ยา"
+      },
+      {
+        "key": "Enchantments",
+        "value": "เสริมแกร่ง"
+      }
+      
+      
+    ]
+}
