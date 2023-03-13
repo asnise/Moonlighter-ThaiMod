@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e15cc11f979ed25912dff5b0669f2cd.ico">
+    <title>Moonlighter ThaiMod</title>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: #f8f8f8;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+        border: 1px solid #444444;
+    }
+
+    td {
+        background-color: #2d2d2d;
+        color: #f8f8f8;
+        padding: 10px;
+        border: 1px solid #444444;
+    }
+
+    th {
+        background-color: #212121;
+        color: #f8f8f8;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #444444;
+    }
+    
+    footer {
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        bottom: 0;
+    }
+</style>
+
+
+    </style>
+</head>
+
+<body>
+    <h1>ข้อความที่แปลไปแล้ว</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>English</th>
+                <th>Thai</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <footer>
+        &copy; Nattaset Panlek && translations.
+      </footer>
+
+    <script>
+        const url = "https://raw.githubusercontent.com/asnise/Moonlighter-ThaiMod/main/th.json";
+
+        fetch(url)
+            .then((response) => response.json())
+            .then((data) => {
+                const data_sub = [...data.translations];
+
+                const tableBody = document.querySelector("#table-body");
+                let tableHTML = "";
+
+                data_sub.forEach((item) => {
+                    const rowHTML = `
+              <tr>
+                <td>${item.key}</td>
+                <td>${item.value}</td>
+              </tr>
+            `;
+                    tableHTML += rowHTML;
+                });
+
+                tableBody.innerHTML = tableHTML;
+            })
+            .catch((error) => console.error(error));
+    </script>
+</body>
+
+</html>
