@@ -227,8 +227,104 @@
       {
         "key": "Enchantments",
         "value": "เสริมแกร่ง"
+      },
+      {
+        "key": "Do you feel the <color=#9D1414FF>Dungeons</color> are too hard? Tired of your old weapon? I can solve that if you bring me enough money and materials! A forge to be reckoned with.",
+        "value": "คุณรู้สึกว่า <color=#9D1414FF>Dungeons</color>\nยากเกินไปไหม เบื่อ\nอาวุธเก่าของคุณ? ฉันสามารถ\nแก้ปัญหาได้ถ้าคุณนำเงินและ\nสิ่งของมาให้ฉันมากพอ!\nโรงตีเหล็กไงหล่ะ!"
+      },
+      {
+        "key": "Select",
+        "value": "เลือก"
+      },
+      {
+        "key": "Is brute force getting you nowhere in the <color=#9D1414FF>Dungeons</color>? Visit <i><color=#149D72FF>The Wooden Hat</color></i> to find potions and enchantments for this and that.",
+        "value": "มอนเตอร์ดุร้ายทำให้\nคุณไปไม่ถึงไหนใน <color=#9D1414FF>Dungeons</color>?\nเยี่ยมชม <i><color=#149D72FF>The Wooden Hat</color></i>\nเผื่อคุณจะเจอสิ่งที่จะช่วยคุณได้!"
+      },
+      {
+        "key": "Tired of looking for items in the <color=#9D1414FF>Dungeons</color>? Leave that job to others and come to <i><color=#149D72FF>Le Retailer</color></i>, where you'll find the finest items in Rynoka. <i><color=#149D72FF>Le Retailer</color></i>: because life’s complicated enough.",
+        "value": "เบื่อกับการมองหาไอเทมใน <color=#9D1414FF>Dungeons</color> หรือเปล่า?\nปล่อยให้เป็นหน้าที่คนอื่นแล้วมาที่\n<i><color=#149D72FF>Le Retailer</color></i> ที่ซึ่งคุณจะพบสินค้าชั้นเลิศใน\nRynoka <i><color=#149D72FF>Le Retailer</color></i>: เพราะชีวิตก็ซับซ้อนพอแล้ว"
+      },
+      {
+        "key": "Interested in making your money work for you? Trust your money in my hands and I will make it grow before your eyes. \nSigned: The Banker.",
+        "value": "สนใจให้เงินทำงานแทนคุณไหม?\nวางใจว่าเงินของคุณอยู่ในมือของฉัน\nแล้วฉันจะทำให้มันงอกเงยขึ้น\nต่อหน้าต่อตาคุณ\nลงนาม: นายธนาคาร"
+      },
+      {
+        "key": "As a hawker I've traveled the world looking for techniques to create objects that can \"inspire\" people. Visit my cart to find objects that can make your shop look more... interesting to visitors!",
+        "value": "ในฐานะพ่อค้าหาบเร่ ฉันได้เดินทางไปทั่วโลก\nเพื่อค้นหาเทคนิคในการสร้างสิ่งของที่สามารถ\n\"สร้างแรงบันดาลใจ\" ให้ผู้คนได้ ไปที่รถเข็นของฉันเพื่อค้นหาวัตถุที่สามารถทำให้ร้านค้า\nของคุณดูน่าสนใจยิ่งขึ้น... สำหรับผู้เยี่ยมชม!"
+      },
+      {
+        "key": "Cannot request this\ncharacter during the\nnight.",
+        "value": "ไม่สามารถขอ\nให้ดำเนินการใน\nตอนกลาง คืน"
+      },
+      {
+        "key": "This shop expansion allows <color=#149D72FF>Merchants</color> to decorate it to please their customers as well as additional space for their items!",
+        "value": "การขยายร้านค้านี้ทำให้ <color=#149D72FF>Merchants</color> สามารถตกแต่งร้านค้าให้ถูกใจลูกค้าได้ รวมทั้งมีพื้นที่เพิ่มเติมสำหรับสินค้าของพวกเขาด้วย!"
+      },
+      {
+        "key": "This shop expansion adds new showcases, more decor space, and a brand new quest point so <color=#149D72FF>Merchants</color> can receive customer requests.",
+        "value": "การขยายร้านค้านี้เพิ่มตู้โชว์ใหม่ พื้นที่ตกแต่งที่มากขึ้น และจุดสืบเสาะใหม่ล่าสุด เพื่อให้ <color=#149D72FF>Merchants</color> สามารถรับคำขอของลูกค้าได้"
+      },
+      {
+        "key": "This shop expansion adds a shop assistant, extra showcases, and more decor space.",
+        "value": "การขยายร้านค้านี้เพิ่มผู้ช่วยร้านค้า ตู้โชว์พิเศษ และพื้นที่ตกแต่งเพิ่มเติม"
+      },
+      {
+        "key": "Keen on emporiums? This is for you.",
+        "value": "สนใจในเอ็มโพเรียม? นี่ของคุณ"
+      },
+      {
+        "key": "Items sold in this sale box will have a 75% discount.",
+        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 75%"
+      },
+      {
+        "key": "Items sold in this sale box will have a 60% discount.",
+        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 60%"
+      },
+      {
+        "key": "Items sold in this sale box will have a 50% discount.",
+        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 50%"
+      },
+      {
+        "key": "This useful cash register will entice customers to add an extra 10% tip when paying.",
+        "value": "เครื่องบันทึกเงินสดที่มีประโยชน์นี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 10% เมื่อชำระเงิน"
+      },
+      {
+        "key": "This delicate cash register will entice customers to add an extra 20% tip when paying.",
+        "value": "เครื่องบันทึกเงินสดที่ละเอียดอ่อนนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 20% เมื่อชำระเงิน"
+      },
+      {
+        "key": "This luxurious cash register will entice customers to add an extra 40% tip when paying.",
+        "value": "เครื่องบันทึกเงินสดสุดหรูนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 40% เมื่อชำระเงิน"
+      },
+      {
+        "key": "Extra space for your items!",
+        "value": "เพิ่มพื้นที่สำหรับ Item ของคุณ!"
+      },
+      {
+        "key": "A comfortable new bed that will grant adventurers extra health in the morning.",
+        "value": "เตียงใหม่แสนสบายที่จะมอบสุขภาพที่ดีให้กับนักผจญภัยในตอนเช้า"
+      },
+      {
+        "key": "Such a good bed that you'll feel protected after sleeping in it.",
+        "value": "เป็นเตียงที่ดีที่คุณจะรู้สึกได้รับการปกป้องหลังจากนอนในนั้น"
+      },
+      {
+        "key": "Sweet dreams are made of gold! Feel protected even in the hardest <color=#9D1414FF>Dungeons</color>. The comfort will be with you, always.",
+        "value": "ฝันหวานทำด้วยทองคำ! รู้สึกได้รับการปกป้อง\nแม้ใน<color=#9D1414FF> Dungeons </color>ที่ยากที่สุด\nความสะดวกสบายจะอยู่กับคุณเสมอ"
+      },
+      {
+        "key": "<color=#422909FF>Eris:</color>\n... OH! Hi! This\nbook - so good. Yes!\nWhat can I do for\nyou?",
+        "value": "<color=#422909FF>Eris:</color>\n... โอ้! สวัสดี! หนังสือเล่มนี้\nดีมาก ใช่!\nฉันจะทำอะไรให้\nคุณได้บ้าง?"
+      },
+      {
+        "key": "English",
+        "value": "กรณีตอนนี้จะเป็น ภาษาไทย"
+      },
+      {
+        "key": "Check",
+        "value": "ตรวจสอบ"
       }
       
-      
+
     ]
 }
