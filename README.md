@@ -1,4 +1,7 @@
 # Moonlighter-ThaiMod
+
+[Website & Download](https://asnise.github.io/Moonlighter-ThaiMod/)
+
 ```sh
 — อยากจะช่วยแปลภาษาไทย?
 — แปลได้เลย!!
