@@ -1,330 +1,552 @@
 {
-    "translations": [
-      {
-        "key": "Yes",
-        "value": "ยืนยัน"
-      },
-      {
-        "key": "No",
-        "value": "ไม่"
-      },
-      {
-        "key": "Back",
-        "value": "กลับ"
-      },
-      {
-        "key": "Close",
-        "value": "ปิด"
-      },
-      {
-        "key": "Sort",
-        "value": "จัดเรียง"
-      },
-      {
-        "key": "Quick Equip",
-        "value": "สวมใส่เลย"
-      },
-      {
-        "key": "Quick Move",
-        "value": "ย้ายเลย"
-      },
-      {
-        "key": "Quick Move All",
-        "value": "ย้ายทั้งหมด"
-      },
-      {
-        "key": "Grab/Hold Grab Stack",
-        "value": "แบ่ง/เก็บทั้งหมด"
-      },
-      {
-        "key": "All progress after the last save\nwill be lost.\nAre you sure you want to exit?",
-        "value": "ความคืบหน้าทั้งหมดหลังจากการบันทึกครั้งล่าสุด\nจะหายไป\nคุณแน่ใจหรือไม่ว่าต้องการออก"
-      },
-      {
-        "key": "Press any key or button to continue",
-        "value": "กดปุ่มใดก็ได้เพื่อดำเนินการต่อ"
-      },
-      {
-        "key": "Hold to sleep",
-        "value": "กดค้างเพื่อ นอน"
-      },
-      {
-        "key": "Open",
-        "value": "เปิด"
-      },
-      {
-        "key": "Read",
-        "value": "อ่าน"
-      },
-      {
-        "key": "Place",
-        "value": "วาง"
-      },
-      {
-        "key": "Sell",
-        "value": "ขาย"
-      },
-      {
-        "key": "Talk",
-        "value": "พูดคุย"
-      },
-      {
-        "key": "Hold to Open Shop",
-        "value": "กดค้างเพื่อ เปิดร้าน"
-      },
-      {
-        "key": "Exit",
-        "value": "ออก"
-      },
-      {
-        "key": "Back to Game",
-        "value": "กลับเข้าเกม"
-      },
-      {
-        "key": "Options",
-        "value": "ตั้งค่า"
-      },
-      {
-        "key": "Main Menu",
-        "value": "เมนูหลัก"
-      },
-      {
-        "key": "Exit To Desktop",
-        "value": "ออกเกม"
-      },
-      {
-        "key": "New Game",
-        "value": "เล่นใหม่"
-      },
-      {
-        "key": "Save Game",
-        "value": "เซฟเกม"
-      },
-      {
-        "key": "Choose a save slot to begin",
-        "value": "เลือกเซฟเพื่อเล่นต่อ"
-      },
-      {
-        "key": "LOAD / NEW GAME",
-        "value": "โหลดเซฟ / เล่นใหม่"
-      },
-      {
-        "key": "Copy",
-        "value": "คัดลอก"
-      },
-      {
-        "key": "Erase",
-        "value": "ลบ"
-      },
-      {
-        "key": "GAME OPTIONS",
-        "value": "ตั้งค่า ตัวเกม"
-      },
-      {
-        "key": "GRAPHICS",
-        "value": "กราฟิก"
-      },
-      {
-        "key": "SOUND",
-        "value": "เสียง"
-      },
-      {
-        "key": "CONTROLS",
-        "value": "ปุ่มควบคุม"
-      },
-      {
-        "key": "Continue",
-        "value": "เล่นต่อ"
-      },
-      {
-        "key": "Load / New Game",
-        "value": "โหลด / เล่นใหม่"
-      },
-      {
-        "key": "Saved Game",
-        "value": "เซฟเกม"
-      },
-      {
-        "key": "Investments:",
-        "value": "ลงทุน:"
-      },
-      {
-        "key": "Town",
-        "value": "เมือง"
-      },
-      {
-        "key": "Shop",
-        "value": "หน้าร้าน"
-      },
-      {
-        "key": "<color=#422909FF>Andrei:</color>\nThe forge is ablaze\nand ready to craft\nwhatever you may\nneed!",
-        "value": "<color=#422909FF>Andrei:</color>\nโรงหลอมกำลังลุกโชน\nและ พร้อมที่จะแกะสลัก\nอะไรก็ตามที่คุณ\nต้องการ!"
-      },
-      {
-        "key": "<color=#422909FF>Andrei:</color>\nYou look well today,\nWill! What can I do\nfor you?",
-        "value": "<color=#422909FF>Andrei:</color>\nวันนี้คุณดูดีนะ!\nมีอะไรให้\nฉันช่วย คุณมั้ย?"
-      },
-      {
-        "key": "Calendar",
-        "value": "ปฏิทิน"
-      },
-      {
-        "key": "Wishlist",
-        "value": "สิ่งที่อยากได้"
-      },
-      {
-        "key": "Inventory",
-        "value": "กระเป๋า"
-      },
-      {
-        "key": "Notebook",
-        "value": "สมุดบันทึก"
-      },
-      {
-        "key": "Remove from Wishlist",
-        "value": "ลบจากสิ่งที่อยากได้"
-      },
-      {
-        "key": "Selling and Reactions",
-        "value": "การขายและปฏิกิริยา"
-      },
-      {
-        "key": "Popularity",
-        "value": "ความนิยม"
-      },
-      {
-        "key": "NOT FOR SALE",
-        "value": "ขายไม่ได้"
-      },
-      {
-        "key": "Enter",
-        "value": "เข้า"
-      },
-      {
-        "key": "Total:",
-        "value": "ราคา:"
-      },
-      {
-        "key": "Goodbye!",
-        "value": "จะกลับมาใหม่นะ!"
-      },
-      {
-        "key": "Add to Wishlist",
-        "value": "เพิ่มในรายการที่อยากได้"
-      },
-      {
-        "key": "Grab",
-        "value": "หยิบ"
-      },
-      {
-        "key": "What do you want to\ncraft today?",
-        "value": "ต้องการยา หรือ\nเสริมแกร่งดี?"
-      },
-      {
-        "key": "Potions",
-        "value": "ยา"
-      },
-      {
-        "key": "Enchantments",
-        "value": "เสริมแกร่ง"
-      },
-      {
-        "key": "Do you feel the <color=#9D1414FF>Dungeons</color> are too hard? Tired of your old weapon? I can solve that if you bring me enough money and materials! A forge to be reckoned with.",
-        "value": "คุณรู้สึกว่า <color=#9D1414FF>Dungeons</color>\nยากเกินไปไหม เบื่อ\nอาวุธเก่าของคุณ? ฉันสามารถ\nแก้ปัญหาได้ถ้าคุณนำเงินและ\nสิ่งของมาให้ฉันมากพอ!\nโรงตีเหล็กไงหล่ะ!"
-      },
-      {
-        "key": "Select",
-        "value": "เลือก"
-      },
-      {
-        "key": "Is brute force getting you nowhere in the <color=#9D1414FF>Dungeons</color>? Visit <i><color=#149D72FF>The Wooden Hat</color></i> to find potions and enchantments for this and that.",
-        "value": "มอนเตอร์ดุร้ายทำให้\nคุณไปไม่ถึงไหนใน <color=#9D1414FF>Dungeons</color>?\nเยี่ยมชม <i><color=#149D72FF>The Wooden Hat</color></i>\nเผื่อคุณจะเจอสิ่งที่จะช่วยคุณได้!"
-      },
-      {
-        "key": "Tired of looking for items in the <color=#9D1414FF>Dungeons</color>? Leave that job to others and come to <i><color=#149D72FF>Le Retailer</color></i>, where you'll find the finest items in Rynoka. <i><color=#149D72FF>Le Retailer</color></i>: because life’s complicated enough.",
-        "value": "เบื่อกับการมองหาไอเทมใน <color=#9D1414FF>Dungeons</color> หรือเปล่า?\nปล่อยให้เป็นหน้าที่คนอื่นแล้วมาที่\n<i><color=#149D72FF>Le Retailer</color></i> ที่ซึ่งคุณจะพบสินค้าชั้นเลิศใน\nRynoka <i><color=#149D72FF>Le Retailer</color></i>: เพราะชีวิตก็ซับซ้อนพอแล้ว"
-      },
-      {
-        "key": "Interested in making your money work for you? Trust your money in my hands and I will make it grow before your eyes. \nSigned: The Banker.",
-        "value": "สนใจให้เงินทำงานแทนคุณไหม?\nวางใจว่าเงินของคุณอยู่ในมือของฉัน\nแล้วฉันจะทำให้มันงอกเงยขึ้น\nต่อหน้าต่อตาคุณ\nลงนาม: นายธนาคาร"
-      },
-      {
-        "key": "As a hawker I've traveled the world looking for techniques to create objects that can \"inspire\" people. Visit my cart to find objects that can make your shop look more... interesting to visitors!",
-        "value": "ในฐานะพ่อค้าหาบเร่ ฉันได้เดินทางไปทั่วโลก\nเพื่อค้นหาเทคนิคในการสร้างสิ่งของที่สามารถ\n\"สร้างแรงบันดาลใจ\" ให้ผู้คนได้ ไปที่รถเข็นของฉันเพื่อค้นหาวัตถุที่สามารถทำให้ร้านค้า\nของคุณดูน่าสนใจยิ่งขึ้น... สำหรับผู้เยี่ยมชม!"
-      },
-      {
-        "key": "Cannot request this\ncharacter during the\nnight.",
-        "value": "ไม่สามารถขอ\nให้ดำเนินการใน\nตอนกลาง คืน"
-      },
-      {
-        "key": "This shop expansion allows <color=#149D72FF>Merchants</color> to decorate it to please their customers as well as additional space for their items!",
-        "value": "การขยายร้านค้านี้ทำให้ <color=#149D72FF>Merchants</color> สามารถตกแต่งร้านค้าให้ถูกใจลูกค้าได้ รวมทั้งมีพื้นที่เพิ่มเติมสำหรับสินค้าของพวกเขาด้วย!"
-      },
-      {
-        "key": "This shop expansion adds new showcases, more decor space, and a brand new quest point so <color=#149D72FF>Merchants</color> can receive customer requests.",
-        "value": "การขยายร้านค้านี้เพิ่มตู้โชว์ใหม่ พื้นที่ตกแต่งที่มากขึ้น และจุดสืบเสาะใหม่ล่าสุด เพื่อให้ <color=#149D72FF>Merchants</color> สามารถรับคำขอของลูกค้าได้"
-      },
-      {
-        "key": "This shop expansion adds a shop assistant, extra showcases, and more decor space.",
-        "value": "การขยายร้านค้านี้เพิ่มผู้ช่วยร้านค้า ตู้โชว์พิเศษ และพื้นที่ตกแต่งเพิ่มเติม"
-      },
-      {
-        "key": "Keen on emporiums? This is for you.",
-        "value": "สนใจในเอ็มโพเรียม? นี่ของคุณ"
-      },
-      {
-        "key": "Items sold in this sale box will have a 75% discount.",
-        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 75%"
-      },
-      {
-        "key": "Items sold in this sale box will have a 60% discount.",
-        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 60%"
-      },
-      {
-        "key": "Items sold in this sale box will have a 50% discount.",
-        "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 50%"
-      },
-      {
-        "key": "This useful cash register will entice customers to add an extra 10% tip when paying.",
-        "value": "เครื่องบันทึกเงินสดที่มีประโยชน์นี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 10% เมื่อชำระเงิน"
-      },
-      {
-        "key": "This delicate cash register will entice customers to add an extra 20% tip when paying.",
-        "value": "เครื่องบันทึกเงินสดที่ละเอียดอ่อนนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 20% เมื่อชำระเงิน"
-      },
-      {
-        "key": "This luxurious cash register will entice customers to add an extra 40% tip when paying.",
-        "value": "เครื่องบันทึกเงินสดสุดหรูนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 40% เมื่อชำระเงิน"
-      },
-      {
-        "key": "Extra space for your items!",
-        "value": "เพิ่มพื้นที่สำหรับ Item ของคุณ!"
-      },
-      {
-        "key": "A comfortable new bed that will grant adventurers extra health in the morning.",
-        "value": "เตียงใหม่แสนสบายที่จะมอบสุขภาพที่ดีให้กับนักผจญภัยในตอนเช้า"
-      },
-      {
-        "key": "Such a good bed that you'll feel protected after sleeping in it.",
-        "value": "เป็นเตียงที่ดีที่คุณจะรู้สึกได้รับการปกป้องหลังจากนอนในนั้น"
-      },
-      {
-        "key": "Sweet dreams are made of gold! Feel protected even in the hardest <color=#9D1414FF>Dungeons</color>. The comfort will be with you, always.",
-        "value": "ฝันหวานทำด้วยทองคำ! รู้สึกได้รับการปกป้อง\nแม้ใน<color=#9D1414FF> Dungeons </color>ที่ยากที่สุด\nความสะดวกสบายจะอยู่กับคุณเสมอ"
-      },
-      {
-        "key": "<color=#422909FF>Eris:</color>\n... OH! Hi! This\nbook - so good. Yes!\nWhat can I do for\nyou?",
-        "value": "<color=#422909FF>Eris:</color>\n... โอ้! สวัสดี! หนังสือเล่มนี้\nดีมาก ใช่!\nฉันจะทำอะไรให้\nคุณได้บ้าง?"
-      },
-      {
-        "key": "English",
-        "value": "กรณีตอนนี้จะเป็น ภาษาไทย"
-      },
-      {
-        "key": "Check",
-        "value": "ตรวจสอบ"
-      }
-      
-
-    ]
+  "translations": [
+    {
+      "key": "Yes",
+      "value": "ยืนยัน"
+    },
+    {
+      "key": "No",
+      "value": "ไม่"
+    },
+    {
+      "key": "Back",
+      "value": "กลับ"
+    },
+    {
+      "key": "Close",
+      "value": "ปิด"
+    },
+    {
+      "key": "Sort",
+      "value": "จัดเรียง"
+    },
+    {
+      "key": "Quick Equip",
+      "value": "สวมใส่เลย"
+    },
+    {
+      "key": "Quick Move",
+      "value": "ย้ายเลย"
+    },
+    {
+      "key": "Quick Move All",
+      "value": "ย้ายทั้งหมด"
+    },
+    {
+      "key": "Grab/Hold Grab Stack",
+      "value": "แบ่ง/เก็บทั้งหมด"
+    },
+    {
+      "key": "All progress after the last save\nwill be lost.\nAre you sure you want to exit?",
+      "value": "ความคืบหน้าทั้งหมดหลังจากการบันทึกครั้งล่าสุด\nจะหายไป\nคุณแน่ใจหรือไม่ว่าต้องการออก"
+    },
+    {
+      "key": "Press any key or button to continue",
+      "value": "กดปุ่มใดก็ได้เพื่อดำเนินการต่อ"
+    },
+    {
+      "key": "Hold to sleep",
+      "value": "กดค้างเพื่อ นอน"
+    },
+    {
+      "key": "Open",
+      "value": "เปิด"
+    },
+    {
+      "key": "Read",
+      "value": "อ่าน"
+    },
+    {
+      "key": "Place",
+      "value": "วาง"
+    },
+    {
+      "key": "Sell",
+      "value": "ขาย"
+    },
+    {
+      "key": "Talk",
+      "value": "พูดคุย"
+    },
+    {
+      "key": "Hold to Open Shop",
+      "value": "กดค้างเพื่อ เปิดร้าน"
+    },
+    {
+      "key": "Exit",
+      "value": "ออก"
+    },
+    {
+      "key": "Back to Game",
+      "value": "กลับเข้าเกม"
+    },
+    {
+      "key": "Options",
+      "value": "ตั้งค่า"
+    },
+    {
+      "key": "Main Menu",
+      "value": "เมนูหลัก"
+    },
+    {
+      "key": "Exit To Desktop",
+      "value": "ออกเกม"
+    },
+    {
+      "key": "New Game",
+      "value": "เล่นใหม่"
+    },
+    {
+      "key": "Save Game",
+      "value": "เซฟเกม"
+    },
+    {
+      "key": "Choose a save slot to begin",
+      "value": "เลือกเซฟเพื่อเล่นต่อ"
+    },
+    {
+      "key": "LOAD / NEW GAME",
+      "value": "โหลดเซฟ / เล่นใหม่"
+    },
+    {
+      "key": "Copy",
+      "value": "คัดลอก"
+    },
+    {
+      "key": "Erase",
+      "value": "ลบ"
+    },
+    {
+      "key": "GAME OPTIONS",
+      "value": "ตั้งค่า ตัวเกม"
+    },
+    {
+      "key": "GRAPHICS",
+      "value": "กราฟิก"
+    },
+    {
+      "key": "SOUND",
+      "value": "เสียง"
+    },
+    {
+      "key": "CONTROLS",
+      "value": "ปุ่มควบคุม"
+    },
+    {
+      "key": "Continue",
+      "value": "เล่นต่อ"
+    },
+    {
+      "key": "Load / New Game",
+      "value": "โหลด / เล่นใหม่"
+    },
+    {
+      "key": "Saved Game",
+      "value": "เซฟเกม"
+    },
+    {
+      "key": "Investments:",
+      "value": "ลงทุน:"
+    },
+    {
+      "key": "Town",
+      "value": "เมือง"
+    },
+    {
+      "key": "Shop",
+      "value": "หน้าร้าน"
+    },
+    {
+      "key": "<color=#422909FF>Andrei:</color>\nThe forge is ablaze\nand ready to craft\nwhatever you may\nneed!",
+      "value": "<color=#422909FF>Andrei:</color>\nโรงหลอมกำลังลุกโชน\nและ พร้อมที่จะแกะสลัก\nอะไรก็ตามที่คุณ\nต้องการ!"
+    },
+    {
+      "key": "<color=#422909FF>Andrei:</color>\nYou look well today,\nWill! What can I do\nfor you?",
+      "value": "<color=#422909FF>Andrei:</color>\nวันนี้คุณดูดีนะ!\nมีอะไรให้\nฉันช่วย คุณมั้ย?"
+    },
+    {
+      "key": "Calendar",
+      "value": "ปฏิทิน"
+    },
+    {
+      "key": "Wishlist",
+      "value": "สิ่งที่อยากได้"
+    },
+    {
+      "key": "Inventory",
+      "value": "กระเป๋า"
+    },
+    {
+      "key": "Notebook",
+      "value": "สมุดบันทึก"
+    },
+    {
+      "key": "Remove from Wishlist",
+      "value": "ลบจากสิ่งที่อยากได้"
+    },
+    {
+      "key": "Selling and Reactions",
+      "value": "การขายและปฏิกิริยา"
+    },
+    {
+      "key": "Popularity",
+      "value": "ความนิยม"
+    },
+    {
+      "key": "NOT FOR SALE",
+      "value": "ขายไม่ได้"
+    },
+    {
+      "key": "Enter",
+      "value": "เข้า"
+    },
+    {
+      "key": "Total:",
+      "value": "ราคา:"
+    },
+    {
+      "key": "Goodbye!",
+      "value": "จะกลับมาใหม่นะ!"
+    },
+    {
+      "key": "Add to Wishlist",
+      "value": "เพิ่มในรายการที่อยากได้"
+    },
+    {
+      "key": "Grab",
+      "value": "หยิบ"
+    },
+    {
+      "key": "What do you want to\ncraft today?",
+      "value": "ต้องการยา หรือ\nเสริมแกร่งดี?"
+    },
+    {
+      "key": "Potions",
+      "value": "ยา"
+    },
+    {
+      "key": "Enchantments",
+      "value": "เสริมแกร่ง"
+    },
+    {
+      "key": "Do you feel the <color=#9D1414FF>Dungeons</color> are too hard? Tired of your old weapon? I can solve that if you bring me enough money and materials! A forge to be reckoned with.",
+      "value": "คุณรู้สึกว่า <color=#9D1414FF>Dungeons</color>\nยากเกินไปไหม เบื่อ\nอาวุธเก่าของคุณ? ฉันสามารถ\nแก้ปัญหาได้ถ้าคุณนำเงินและ\nสิ่งของมาให้ฉันมากพอ!\nโรงตีเหล็กไงหล่ะ!"
+    },
+    {
+      "key": "Select",
+      "value": "เลือก"
+    },
+    {
+      "key": "Is brute force getting you nowhere in the <color=#9D1414FF>Dungeons</color>? Visit <i><color=#149D72FF>The Wooden Hat</color></i> to find potions and enchantments for this and that.",
+      "value": "มอนเตอร์ดุร้ายทำให้\nคุณไปไม่ถึงไหนใน <color=#9D1414FF>Dungeons</color>?\nเยี่ยมชม <i><color=#149D72FF>The Wooden Hat</color></i>\nเผื่อคุณจะเจอสิ่งที่จะช่วยคุณได้!"
+    },
+    {
+      "key": "Tired of looking for items in the <color=#9D1414FF>Dungeons</color>? Leave that job to others and come to <i><color=#149D72FF>Le Retailer</color></i>, where you'll find the finest items in Rynoka. <i><color=#149D72FF>Le Retailer</color></i>: because life’s complicated enough.",
+      "value": "เบื่อกับการมองหาไอเทมใน <color=#9D1414FF>Dungeons</color> หรือเปล่า?\nปล่อยให้เป็นหน้าที่คนอื่นแล้วมาที่\n<i><color=#149D72FF>Le Retailer</color></i> ที่ซึ่งคุณจะพบสินค้าชั้นเลิศใน\nRynoka <i><color=#149D72FF>Le Retailer</color></i>: เพราะชีวิตก็ซับซ้อนพอแล้ว"
+    },
+    {
+      "key": "Interested in making your money work for you? Trust your money in my hands and I will make it grow before your eyes. \nSigned: The Banker.",
+      "value": "สนใจให้เงินทำงานแทนคุณไหม?\nวางใจว่าเงินของคุณอยู่ในมือของฉัน\nแล้วฉันจะทำให้มันงอกเงยขึ้น\nต่อหน้าต่อตาคุณ\nลงนาม: นายธนาคาร"
+    },
+    {
+      "key": "As a hawker I've traveled the world looking for techniques to create objects that can \"inspire\" people. Visit my cart to find objects that can make your shop look more... interesting to visitors!",
+      "value": "ในฐานะพ่อค้าหาบเร่ ฉันได้เดินทางไปทั่วโลก\nเพื่อค้นหาเทคนิคในการสร้างสิ่งของที่สามารถ\n\"สร้างแรงบันดาลใจ\" ให้ผู้คนได้ ไปที่รถเข็นของฉันเพื่อค้นหาวัตถุที่สามารถทำให้ร้านค้า\nของคุณดูน่าสนใจยิ่งขึ้น... สำหรับผู้เยี่ยมชม!"
+    },
+    {
+      "key": "Cannot request this\ncharacter during the\nnight.",
+      "value": "ไม่สามารถขอ\nให้ดำเนินการใน\nตอนกลาง คืน"
+    },
+    {
+      "key": "This shop expansion allows <color=#149D72FF>Merchants</color> to decorate it to please their customers as well as additional space for their items!",
+      "value": "การขยายร้านค้านี้ทำให้ <color=#149D72FF>Merchants</color> สามารถตกแต่งร้านค้าให้ถูกใจลูกค้าได้ รวมทั้งมีพื้นที่เพิ่มเติมสำหรับสินค้าของพวกเขาด้วย!"
+    },
+    {
+      "key": "This shop expansion adds new showcases, more decor space, and a brand new quest point so <color=#149D72FF>Merchants</color> can receive customer requests.",
+      "value": "การขยายร้านค้านี้เพิ่มตู้โชว์ใหม่ พื้นที่ตกแต่งที่มากขึ้น และจุดสืบเสาะใหม่ล่าสุด เพื่อให้ <color=#149D72FF>Merchants</color> สามารถรับคำขอของลูกค้าได้"
+    },
+    {
+      "key": "This shop expansion adds a shop assistant, extra showcases, and more decor space.",
+      "value": "การขยายร้านค้านี้เพิ่มผู้ช่วยร้านค้า ตู้โชว์พิเศษ และพื้นที่ตกแต่งเพิ่มเติม"
+    },
+    {
+      "key": "Keen on emporiums? This is for you.",
+      "value": "สนใจในเอ็มโพเรียม? นี่ของคุณ"
+    },
+    {
+      "key": "Items sold in this sale box will have a 75% discount.",
+      "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 75%"
+    },
+    {
+      "key": "Items sold in this sale box will have a 60% discount.",
+      "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 60%"
+    },
+    {
+      "key": "Items sold in this sale box will have a 50% discount.",
+      "value": "สินค้าที่ขายในกล่องลดราคานี้จะมีส่วนลด 50%"
+    },
+    {
+      "key": "This useful cash register will entice customers to add an extra 10% tip when paying.",
+      "value": "เครื่องบันทึกเงินสดที่มีประโยชน์นี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 10% เมื่อชำระเงิน"
+    },
+    {
+      "key": "This delicate cash register will entice customers to add an extra 20% tip when paying.",
+      "value": "เครื่องบันทึกเงินสดที่ละเอียดอ่อนนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 20% เมื่อชำระเงิน"
+    },
+    {
+      "key": "This luxurious cash register will entice customers to add an extra 40% tip when paying.",
+      "value": "เครื่องบันทึกเงินสดสุดหรูนี้จะดึงดูดลูกค้าให้เพิ่มทิปพิเศษ 40% เมื่อชำระเงิน"
+    },
+    {
+      "key": "Extra space for your items!",
+      "value": "เพิ่มพื้นที่สำหรับ Item ของคุณ!"
+    },
+    {
+      "key": "A comfortable new bed that will grant adventurers extra health in the morning.",
+      "value": "เตียงใหม่แสนสบายที่จะมอบสุขภาพที่ดีให้กับนักผจญภัยในตอนเช้า"
+    },
+    {
+      "key": "Such a good bed that you'll feel protected after sleeping in it.",
+      "value": "เป็นเตียงที่ดีที่คุณจะรู้สึกได้รับการปกป้องหลังจากนอนในนั้น"
+    },
+    {
+      "key": "Sweet dreams are made of gold! Feel protected even in the hardest <color=#9D1414FF>Dungeons</color>. The comfort will be with you, always.",
+      "value": "ฝันหวานทำด้วยทองคำ! รู้สึกได้รับการปกป้อง\nแม้ใน<color=#9D1414FF> Dungeons </color>ที่ยากที่สุด\nความสะดวกสบายจะอยู่กับคุณเสมอ"
+    },
+    {
+      "key": "<color=#422909FF>Eris:</color>\n... OH! Hi! This\nbook - so good. Yes!\nWhat can I do for\nyou?",
+      "value": "<color=#422909FF>Eris:</color>\n... โอ้! สวัสดี! หนังสือเล่มนี้\nดีมาก ใช่!\nฉันจะทำอะไรให้\nคุณได้บ้าง?"
+    },
+    {
+      "key": "English",
+      "value": "กรณีตอนนี้จะเป็น ภาษาไทย"
+    },
+    {
+      "key": "Check",
+      "value": "ตรวจสอบ"
+    },
+    {
+      "key": "Every Visitor adds a generous tip to their payment.",
+      "value": "ผู้เข้าชมทุกคน มีโอกาสที่จะให้ทิปคุณ"
+    },
+    {
+      "key": "Increases the time the shop can be open.",
+      "value": "เพิ่มเวลาที่ร้านค้าสามารถเปิดได้"
+    },
+    {
+      "key": "Increases the speed of Visitors.",
+      "value": "เพิ่มความเร็วของผู้เข้าชม"
+    },
+    {
+      "key": "Decreases the probability of Thieves.",
+      "value": "ลดความอัตราที่โจร จะเข้ามาขโมยของในร้าน"
+    },
+    {
+      "key": "<color=#422909FF>Andrei:</color>\nLooking to craft\nsome better gear,\nWill?",
+      "value": "<color=#422909FF>Andrei:</color>\nกำลังมองหางานฝีมือ\nอุปกรณ์ที่ดีกว่า\nนี้?"
+    },
+    {
+      "key": "Centinel turret unable to shoot a constant stream of water.",
+      "value": "ป้อมปืน Centinel ไม่สามารถยิงน้ำได้อย่างต่อเนื่อง"
+    },
+    {
+      "key": "Flying golem made to collect materials and repair golems with them.",
+      "value": "Flying Golem ทำเพื่อรวบรวมวัสดุและซ่อมแซมโกเลม"
+    },
+    {
+      "key": "Modified sprout whose leaves are as sharp as a sword.",
+      "value": "สามารถงอกและดัดแปลงซึ่งมีใบมีความคมชัดเท่ากับดาบ"
+    },
+    {
+      "key": "Wind Tree sprout modified to be able to walk and use its leaf to create wind flows.",
+      "value": "ต้นกล้า Wind Tree ปรับเปลี่ยนเพื่อให้สามารถเดินและใช้ใบไม้เพื่อสร้างกระแสลม"
+    },
+    {
+      "key": "Dancing puppet made to support his companion with cheerful dances.",
+      "value": "หุ่นกระบอกเต้นรำที่ทำเพื่อสนับสนุนเพื่อนของเขาด้วยการเต้นรำที่ร่าเริง"
+    },
+    {
+      "key": "Golem called \"Mother\" by the locals due to its tendency to spawn fire elementals as a way of attacking.",
+      "value": "โกเลมเรียกว่า \"แม่\" โดยคนในท้องถิ่นเนื่องจากมีแนวโน้มที่จะวางไข่องค์ประกอบไฟเป็นวิธีการโจมตี"
+    },
+    {
+      "key": "Support buddy that can use its lightning bolt to transform an enemy dead body into a potion.",
+      "value": "สนับสนุนเพื่อนที่สามารถใช้สาย\nฟ้าฟาดเพื่อเปลี่ยนศพของศัตรู\nให้เป็นยา"
+    },
+    {
+      "key": "Tech being that protects its companion by patroling around him and dashing everything that gets near.",
+      "value": "เทคโนโลยีที่ปกป้องเพื่อนของมันโดยการลาดตระเวนรอบตัวและทำรายทุกสิ่งที่เข้าใกล้"
+    },
+    {
+      "key": "Friendly mimic able to attack near enemies and carry items inside of it.",
+      "value": "Friendly mimic เป็นมิตรสามารถโจมตีใกล้ศัตรูและสามารถพกสิ่งของไว้ภายในตัวได้"
+    },
+    {
+      "key": "Tiny slime from the Golem Dungeon that gives the stun effect to its master's weapon",
+      "value": "น้ำเมือกเล็ก ๆ จาก Golem Dungeon ที่ให้เอฟเฟกต์ stun กับ master's weapon"
+    },
+    {
+      "key": "Poisonous slime from the Forest Dungeon that gives the poison effect to its master's weapon",
+      "value": "น้ำเมือกพิษจาก Forest Dungeon ที่ให้พิษต่อ master's weapon"
+    },
+    {
+      "key": "Fire slime from the Desert Dungeon that gives the burning effect to its master's weapon",
+      "value": "เมือกไฟ จาก Desert Dungeon ที่ให้ผลการเผาไหม้กับ master's weapon"
+    },
+    {
+      "key": "Electric slime from the Tech Dungeon that gives the electrifying effect to its master's weapon",
+      "value": "น้ำเมือกไฟฟ้าจาก Tech Dungeon ที่ให้ผลกระทบต่อ master's weapon"
+    },
+    {
+      "key": "Restores 40 Health. Should always have one or two of these on hand.",
+      "value": "ฟื้นฟู HP 40 หน่วย ควรมีหนึ่งหรือสองขวดนี้อยู่ในมือ"
+    },
+    {
+      "key": "Restores 75 Health. Definitely worth the price.",
+      "value": "ฟื้นฟู HP 75 หน่วย คุ้มค่ากับราคาแน่นอน"
+    },
+    {
+      "key": "Restores 200 Health. It would have been nice to have this when I ran into that creature...",
+      "value": "ฟื้นฟู HP 200 หน่วย คงจะดีถ้ามีสิ่งนี้เมื่อฉันวิ่งเข้าไปในสิ่งมีชีวิตนั้น ..."
+    },
+    {
+      "key": "Restores 500 Health. The Witch sure has outdone herself here.",
+      "value": "ฟื้นฟู HP 500 หน่วย แม่มดแน่ใจว่าได้เอาชนะตัวเองที่นี่"
+    },
+    {
+      "key": "Restores full Health. A vital potion for the more difficult <color=#9D1414FF>Dungeons</color>.",
+      "value": "ฟื้นฟู HP เต็มยาที่สำคัญยิ่งเมื่อลงไปใน <color=#9D1414FF>Dungeons</color>."
+    },
+    {
+      "key": "Fireflies will guide the user to the next floor of the <color=#9D1414FF>Golem Dungeon</color>.",
+      "value": "หิ่งห้อยจะแนะนำผู้ใช้\nไปยังชั้นถัดไปของ <color=#9D1414FF>Golem Dungeon</color>"
+    },
+    {
+      "key": "Reveals the <color=#9D1414FF>Golem Dungeon</color> map upon use.",
+      "value": "เปิดเผยแผนที่ <color=#9D1414FF>Golem Dungeon</color> เมื่อใช้งาน"
+    },
+    {
+      "key": "Fireflies will guide the user to the next floor of the <color=#9D1414FF>Forest Dungeon</color>.",
+      "value": "หิ่งห้อยจะแนะนำผู้ใช้\nไปยังชั้นถัดไปของ <color=#9D1414FF>Forest Dungeon</color>"
+    },
+    {
+      "key": "Reveals the <color=#9D1414FF>Forest Dungeon</color> map upon use.",
+      "value": "เปิดเผยแผนที่ <color=#9D1414FF>Forest Dungeon</color> เมื่อใช้งาน"
+    },
+    {
+      "key": "Fireflies will guide the user to the next floor of the <color=#9D1414FF>Desert Dungeon</color>.",
+      "value": "หิ่งห้อยจะแนะนำผู้ใช้\nไปยังชั้นถัดไปของ <color=#9D1414FF>Desert Dungeon</color>"
+    },
+    {
+      "key": "Fireflies will guide the user to the next floor of the <color=#9D1414FF>Tech Dungeon</color>.",
+      "value": "หิ่งห้อยจะแนะนำผู้ใช้\nไปยังชั้นถัดไปของ <color=#9D1414FF>Tech Dungeon</color>"
+    },
+    {
+      "key": "Reveals the <color=#9D1414FF>Desert Dungeon</color> map upon use.",
+      "value": "เปิดเผยแผนที่ <color=#9D1414FF>Desert Dungeon</color> เมื่อใช้งาน"
+    },
+    {
+      "key": "Reveals the <color=#9D1414FF>Tech Dungeon</color> map upon use.",
+      "value": "เปิดเผยแผนที่ <color=#9D1414FF>Tech Dungeon</color> เมื่อใช้งาน"
+    },
+    {
+      "key": "A relaxing fountain of energized water from the <color=#9D1414FF>Golem Dungeon</color>.",
+      "value": "น้ำพุที่ผ่อนคลายของน้ำ\nที่มีพลังจาก <color=#9D1414FF>Golem Dungeon</color>."
+    },
+    {
+      "key": "Increases the time visitors wait in the queue.",
+      "value": "เพิ่มเวลาให้\nผู้เข้าชมรอคิว"
+    },
+    {
+      "key": "An old, battered banner from an ancient <color=#9D1414FF>Golem Soldier</color>.",
+      "value": "แบนเนอร์เก่าจากยุคโบราณ <color=#9D1414FF>Golem Soldier</color>."
+    },
+    {
+      "key": "Increases the max. number of visitors to the shop.",
+      "value": "เพิ่มสูงสุดจำนวนผู้เยี่ยมชมร้านค้า"
+    },
+    {
+      "key": "Collection of books reciting the history of the <color=#9D1414FF>Golem Culture</color>.",
+      "value": "คอลเลกชันหนังสือที่ท่องประวัติของ <color=#9D1414FF>Golem Culture</color>."
+    },
+    {
+      "key": "Natural formation of Golem crystals. A soft, eerie glow radiates from them.",
+      "value": "การก่อตัวตามธรรมชาติของผลึกโกเลมเรืองแสงที่นุ่มนวลน่าขนลุกจากพวกเขา"
+    },
+    {
+      "key": "The beautiful colors of the <color=#9D1414FF>Forest Dungeon</color> in a little pot.",
+      "value": "สีที่สวยงามของ <color=#9D1414FF>Forest Dungeon</color> ในหม้อเล็ก ๆ."
+    },
+    {
+      "key": "Ivy from the living walls of the <color=#9D1414FF>Forest Dungeon</color>.",
+      "value": "ไม้เลื้อยจากผนังที่มีชีวิตของ <color=#9D1414FF>Forest Dungeon</color>."
+    },
+    {
+      "key": "A pleasant looking arrangement of fruits perfect for visitors.",
+      "value": "การจัดเรียงผลไม้ที่ดูดีเหมาะสำหรับผู้เข้าชม"
+    },
+    {
+      "key": "รุ่นจิ๋วของ <color=#9D1414FF>Forest Guardian</color>.",
+      "value": ""
+    },
+    {
+      "key": "Fireproof cloth with the traditional symbols of the <color=#9D1414FF>Desert Culture</color> stitched into them.",
+      "value": "ผ้าปูที่นอน ด้วยสัญลักษณ์ดั้งเดิมของ <color=#9D1414FF>Desert Culture</color> เย็บเข้าไปในพวกเขา"
+    },
+    {
+      "key": "EffectName && Delays the delivery date of shop requests.",
+      "value": "EffectName && delays วันที่ส่งมอบของคำขอร้านค้า"
+    },
+    {
+      "key": "The sound of the lava slowly flowing through this fountain may attract some and scare others.",
+      "value": "เสียงของลาวาที่ไหลผ่านน้ำพุนี้อย่างช้าๆอาจดึงดูดบางอย่างและทำให้คนอื่นตกใจ"
+    },
+    {
+      "key": "A clock powered by the infinitely flowing lava of the <color=#9D1414FF>Desert Culture</color>.",
+      "value": "นาฬิกาที่ขับเคลื่อนโดยลาวาที่ไหลลื่นของ <color=#9D1414FF>Desert Culture</color>."
+    },
+    {
+      "key": "A perfect shelf to make your place feel like a Tech laboratory.",
+      "value": "ชั้นวางที่สมบูรณ์แบบที่จะทำให้สถานที่ของคุณรู้สึกเหมือนเป็นห้องปฏิบัติการเทคโนโลยี"
+    },
+    {
+      "key": "A soft hum comes off of this small device as valves constantly move, attracting the attention of all.",
+      "value": "เสียงฮัมนุ่ม ๆ ออกมาจากอุปกรณ์ขนาดเล็กนี้เมื่อวาล์วเคลื่อนที่อย่างต่อเนื่องดึงดูดความสนใจของทุกคน"
+    },
+    {
+      "key": "A scary looking device. Able to shock any who touch it... Probably great for pest control.",
+      "value": "อุปกรณ์ที่ดูน่ากลัวสามารถตกใจที่ใครสัมผัสได้ ... อาจจะดีสำหรับการควบคุมศัตรูพืช"
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    },
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
 }
