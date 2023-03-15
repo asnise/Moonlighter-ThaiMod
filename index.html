@@ -1,94 +1,175 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="icon" href="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e15cc11f979ed25912dff5b0669f2cd.ico">
-    <title>Moonlighter ThaiMod</title>
-    <style>
-        body {
-            background-color: #1c1c1c;
-            color: #f8f8f8;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-        }
-
-        table {
-        border-collapse: collapse;
-        width: 50%;
-        margin: 20px auto;
-        border: 1px solid #444444;
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e15cc11f979ed25912dff5b0669f2cd.ico">
+  <title>Moonlighter ThaiMod</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+    body {
+      background-color: #212121;
+      color: #fff;
+      font-family: 'Kanit', sans-serif;
+      font-size: 18px;
+      
     }
 
-    td {
-        background-color: #2d2d2d;
-        color: #f8f8f8;
-        padding: 10px;
-        border: 1px solid #444444;
+    ::-webkit-scrollbar {
+    width: 0;
+}
+    .translations-line {
+  display: flex;
+  justify-content: space-between;
+}
+h1
+{
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.translation {
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  background-color: #424242;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.translation h3 {
+    color: #37ce80;
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.translation p {
+  margin: 0;
+  font-size: 18px;
+}
+#download-container {
+    border-radius: 5px;
+  background-color: #1a1919;
+      padding: 30px;
+      display: flex;
+      margin: 70px 20px;
+      justify-content: center;
+      align-items: center;
     }
 
-    th {
-        background-color: #212121;
-        color: #f8f8f8;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #444444;
+    #download-container p {
+      margin-right: 10px;
+      font-size: 20px;
     }
-    
-    footer {
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        font-size: 14px;
-        bottom: 0;
+
+    #download-container a {
+    text-decoration: none;
+      padding: 10px 20px;
+      border: 1px solid #37ce80;
+      border-radius: 10px;
+      background-color: #37ce80;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.2s;
     }
-</style>
 
+    #download-container a:hover {
+        border: 1px solid #37ce80;
+      background-color: #212121;
+    }
+    .logo
+    {
+        margin-top: 80px;
+        display: flex;
+  justify-content: center;
+    }
 
-    </style>
+  </style>
 </head>
-
 <body>
-    <h1>ข้อความที่แปลไปแล้ว</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>English</th>
-                <th>Thai</th>
-            </tr>
-        </thead>
-        <tbody id="table-body"></tbody>
-    </table>
-    <footer>
-        &copy; Nattaset Panlek && translations.
-      </footer>
+    <div class="logo">
+        <img src="https://cdn.discordapp.com/attachments/620789873997119509/1085551029782859786/MoonlighterTHMOD.png">
+        </div>
+    <div id="download-container">
+        <p>ดาวโหลด MOD version Demo ไปทดลอง : </p>
+        <a href="#dow">Download</a>
+    </div>
+    <h1>ข้อความที่แปลไปแล้ว <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e15cc11f979ed25912dff5b0669f2cd.ico" width="30"> </h1>
+    
 
-    <script>
-        const url = "https://raw.githubusercontent.com/asnise/Moonlighter-ThaiMod/main/th.json";
+  <div id="translations-container"></div>
+  <div id="download-container">
+    <p>Website & Thai Tranlater By Nattaset Panlek</p>
+</div>
+  <script>
+    // Load the translation data from the URL
+    const url = 'https://raw.githubusercontent.com/asnise/Moonlighter-ThaiMod/main/th.json';
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const translations = data.translations;
+        const translationsContainer = document.getElementById('translations-container');
 
-        fetch(url)
-            .then((response) => response.json())
-            .then((data) => {
-                const data_sub = [...data.translations];
+        // Calculate the width of the translations container
+        const containerWidth = translationsContainer.getBoundingClientRect().width;
 
-                const tableBody = document.querySelector("#table-body");
-                let tableHTML = "";
+        // Loop through each translation and create a block for it
+        let currentLine = [];
+        let currentLineWidth = 0;
+        translations.forEach(translation => {
+          // Create a temporary translation block to get its width
+          const tempBlock = document.createElement('div');
+          tempBlock.className = 'translation';
+          tempBlock.innerHTML = `
+            <h3>${translation.key}</h3>
+            <p>${translation.value}</p>
+          `;
+          document.body.appendChild(tempBlock);
+          const blockWidth = tempBlock.getBoundingClientRect().width;
+          tempBlock.remove();
 
-                data_sub.forEach((item) => {
-                    const rowHTML = `
-              <tr>
-                <td>${item.key}</td>
-                <td>${item.value}</td>
-              </tr>
+          // Check if the block fits on the current line
+          if (currentLineWidth + blockWidth <= containerWidth) {
+            currentLine.push(translation);
+            currentLineWidth += blockWidth;
+          } else {
+            // Create a new line
+            const translationsLine = document.createElement('div');
+            translationsLine.className = 'translations-line';
+            currentLine.forEach(translation => {
+              const translationBlock = document.createElement('div');
+              translationBlock.className = 'translation';
+              translationBlock.innerHTML = `
+                <h3>${translation.key}</h3>
+                <p>${translation.value}</p>
+              `;
+              translationsLine.appendChild(translationBlock);
+            });
+            translationsContainer.appendChild(translationsLine);
+
+            // Start a new line
+            currentLine = [translation];
+            currentLineWidth = blockWidth;
+          }
+        });
+
+        // Create the last line
+        if (currentLine.length > 0) {
+          const translationsLine = document.createElement('div');
+          translationsLine.className = 'translations-line';
+          currentLine.forEach(translation => {
+            const translationBlock = document.createElement('div');
+            translationBlock.className = 'translation';
+            translationBlock.innerHTML = `
+              <h3>${translation.key}</h3>
+              <p>${translation.value}</p>
             `;
-                    tableHTML += rowHTML;
-                });
-
-                tableBody.innerHTML = tableHTML;
-            })
-            .catch((error) => console.error(error));
-    </script>
+            translationsLine.appendChild(translationBlock);
+          });
+          translationsContainer.appendChild(translationsLine);
+        }
+      })
+      .catch(error => console.error(error));
+  </script>
 </body>
-
 </html>
